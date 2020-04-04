@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="60cca83c-6e09-40cf-b5cb-649a341ab104" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/hasura-issue.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/1585992481654_create_table_public_test_table_1/down.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/1585992481654_create_table_public_test_table_1/up.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/1585992528889_create_trigger_test_event_1/down.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/1585992528889_create_trigger_test_event_1/up.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/1585992557655_create_table_public_test_table_2/down.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/1585992557655_create_table_public_test_table_2/up.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/1585992581445_create_trigger_test_event_2/down.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/1585992581445_create_trigger_test_event_2/up.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/1585992945707_modify_tr_test_event_1_retry/down.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/1585992945707_modify_tr_test_event_1_retry/up.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/1585992954396_modify_tr_test_event_2_retry/down.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/1585992954396_modify_tr_test_event_2_retry/up.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/remigrate.sh" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1a4QuM7kQkvTeCekpTJHOO7Nqux" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="60cca83c-6e09-40cf-b5cb-649a341ab104" name="Default Changelist" comment="" />
+      <created>1585992607098</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585992607098</updated>
+      <workItem from="1585992608357" duration="74000" />
+      <workItem from="1585992802332" duration="623000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="476" y="301" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585993002355">
+      <screen x="0" y="23" width="1536" height="937" />
+    </state>
+    <state x="476" y="301" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1536.937@0.23.1536.937" timestamp="1585993002355" />
+    <state x="433" y="228" width="670" height="676" key="search.everywhere.popup" timestamp="1585993099636">
+      <screen x="0" y="23" width="1536" height="937" />
+    </state>
+    <state x="433" y="228" width="670" height="676" key="search.everywhere.popup/0.23.1536.937@0.23.1536.937" timestamp="1585993099636" />
+  </component>
+</project>

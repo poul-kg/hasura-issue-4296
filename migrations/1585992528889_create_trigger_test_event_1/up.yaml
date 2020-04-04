@@ -1,0 +1,15 @@
+- args:
+    enable_manual: false
+    headers: []
+    insert:
+      columns: '*'
+    name: test_event_1
+    retry_conf:
+      interval_sec: 10
+      num_retries: 0
+      timeout_sec: 60
+    table:
+      name: test_table_1
+      schema: public
+    webhook: http://localhost:8080/api/test_event_1
+  type: create_event_trigger

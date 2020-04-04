@@ -1,0 +1,3 @@
+- args:
+    name: test_event_1
+  type: delete_event_trigger

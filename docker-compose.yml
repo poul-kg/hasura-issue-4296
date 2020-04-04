@@ -1,0 +1,31 @@
+version: '3.6'
+services:
+  postgres:
+    image: postgres:10
+    restart: always
+    volumes:
+      - test_data:/var/lib/postgresql/data
+    environment:
+      POSTGRES_PASSWORD: postgrespassword
+      POSTGRES_HOST_AUTH_METHOD: 'trust'
+    ports:
+      - "5432:5432"
+  graphql-engine:
+    image: hasura/graphql-engine:v1.1.0
+    ports:
+      - "8080:8080"
+    depends_on:
+      - "postgres"
+    restart: always
+    environment:
+      HASURA_GRAPHQL_DATABASE_URL: postgres://postgres:postgrespassword@postgres:5432/postgres
+      HASURA_GRAPHQL_ENABLE_CONSOLE: "false" # set to "false" to disable console
+      HASURA_GRAPHQL_ENABLED_LOG_TYPES: startup, http-log, webhook-log, websocket-log, query-log
+      HASURA_GRAPHQL_ADMIN_SECRET: 12345
+      HASURA_GRAPHQL_UNAUTHORIZED_ROLE: 'anonymous'
+      ATTACHMENT_DELETE_URL: 'http://host.docker.internal:7073/test1'
+      LISTING_PUBLISH_URL: 'http://host.docker.internal:7073/test2'
+      LISTING_MEDIA_URL: 'http://host.docker.internal:7073/test3'
+volumes:
+  test_data:
+
